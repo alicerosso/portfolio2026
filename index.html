@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description"
+        content="Portfolio di Alice Rosso. Scopri i miei progetti creativi, il mio approccio e i miei servizi.">
+
+  <meta name="theme-color" content="#111318">
+
+  <title>ALICE ROSSO — Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigazione principale">
+
+      <!-- SOSTITUISCI images/logo.png CON IL TUO LOGO -->
+      <a class="logo" href="#home" aria-label="Torna alla homepage">
+        <img src="img/Licia World.png" alt="Alice Rosso Logo">
+      </a>
+
+      <!-- Menu desktop -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Chi sono</a></li>
+        <li><a href="#projects">Progetti</a></li>
+        <li>
+          <a class="nav-contact" href="#contact">Contattami ↗</a>
+        </li>
+      </ul>
+
+      <!-- Menu mobile senza JavaScript -->
+      <details class="mobile-menu">
+        <summary aria-label="Apri o chiudi il menu">
+          <span class="menu-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </summary>
+
+        <ul class="mobile-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Chi sono</a></li>
+          <li><a href="#projects">Progetti</a></li>
+          <li><a href="#contact">Contattami ↗</a></li>
+        </ul>
+      </details>
+
+    </nav>
+  </header>
+
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero container" id="home">
+
+      <div class="hero-content">
+        <span class="eyebrow">
+          PORTFOLIO PERSONALE · Licia World
+        </span>
+
+        <h1>
+          Ti presento il mio mondo.<br>
+          <span>Creiamo iniseme la TUA identità visiva.</span>
+        </h1>
+
+        <p class="hero-description">
+          Ciao, sono Alice.<br>
+          Mi occupo di Logo e Web Design, trasformo
+          idee in progetti digitali dal carattere unico.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Vieni a scoprire i miei ultimi progetti. <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="button button-secondary" href="#contact">
+            Parliamone
+          </a>
+        </div>
+
+        <p class="availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          Disponibile per nuovi progetti
+        </p>
+      </div>
+
+      <figure class="hero-visual">
+        <img
+          src="img/profilo.jpeg"
+          alt="Una selezione visiva del mio lavoro creativo"
+          fetchpriority="high"
+        >
+        <figcaption class="visual-caption">
+          <span>CREATIVE PORTFOLIO</span>
+        </figcaption>
+      </figure>
+
+    </section>
+
+
+    <!-- CHI SONO -->
+    <section class="about section-border" id="about">
+      <div class="container about-grid">
+
+        <div class="section-heading">
+          <span class="eyebrow">01 / CHI SONO</span>
+          <h2>Sono una ragazza molto determinata con un obiettivo preciso.</h2>
+        </div>
+
+        <div class="about-content">
+          <p>
+            Credo nel potere delle idee ben progettate.<br>
+            Unisco creatività, ricerca e attenzione nei dettagli.<br>
+            Realizzo progetti capaci di comunicare
+            e lasciare il segno.
+          </p>
+
+          <div class="skills" aria-label="Competenze">
+            <span>Web Design</span>
+            <span>Visual Identity</span>
+            <span> Logo design</span>
+            <span>Social Kit</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- PROGETTI -->
+    <section class="projects container" id="projects">
+
+      <div class="projects-heading">
+        <div class="section-heading">
+          <span class="eyebrow">02 / ULTIMI PROGETTI</span>
+          <h2>I miei progetti.</h2>
+        </div>
+
+        <p>
+          Una selezione dei miei lavori più recenti,
+          e delle ultime idee.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <a class="project-image" href="#contact"
+             aria-label="Scopri il progetto Brand Identity">
+            <img
+              src="img/wine time.png"
+              alt="Progetto di identità visiva e branding"
+              loading="lazy"
+            >
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <div class="project-info">
+            <div>
+              <h3>Logo per la ristorazione</h3>
+              <p>Identità visiva · Branding</p>
+            </div>
+            <span class="project-year">2026</span>
+          </div>
+        </article>
+
+
+        <article class="project-card">
+          <a class="project-image" href="#contact"
+             aria-label="Scopri il progetto Digital Experience">
+            <img
+              src="img/logo orizzontale nero.png"
+              alt="Interfaccia di un progetto digitale"
+              loading="lazy"
+            >
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <div class="project-info">
+            <div>
+              <h3>Social kit</h3>
+              <p>Social kit per una pagina di ballerini · Logo design </p>
+            </div>
+            <span class="project-year">2026</span>
+          </div>
+        </article>
+
+
+        <article class="project-card">
+          <a class="project-image" href="https://alicerosso.github.io/portfolio-Eleonora-Ferraris/" target="_blank"
+             aria-label="Scopri il progetto Art Direction">
+            <img
+              src="img/portfolio eleonora.png"
+              alt="Progetto creativo di art direction"
+              loading="lazy"
+            >
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <div class="project-info">
+            <div>
+              <h3>Web Design</h3>
+              <p>Portfolio design · Visual Design · Web option</p>
+            </div>
+            <span class="project-year">2024</span>
+          </div>
+        </article>
+
+
+        <article class="project-card">
+          <a class="project-image" href="#contact"
+             aria-label="Scopri il progetto Digital Campaign">
+            <img
+              src="img/Summer Time.png"
+              alt="Progetto di comunicazione digitale"
+              loading="lazy"
+            >
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <div class="project-info">
+            <div>
+              <h3>Logo concept bar</h3>
+              <p>Creative Logo · Minimal</p>
+            </div>
+            <span class="project-year">2026</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- CONTATTI -->
+    <section class="contact section-border" id="contact">
+      <div class="container contact-content">
+
+        <span class="eyebrow">03 / CONTATTI</span>
+
+        <h2>
+          Hai un progetto<br>
+          <span>in mente?</span>
+        </h2>
+
+        <p>
+          Raccontami la tua idea.
+          Realizziamola iniseme.
+        </p>
+
+        <!-- SOSTITUISCI CON LA TUA EMAIL -->
+        <a class="button button-primary"
+           href="mailto:alicerosso309@gmail.com">
+          Scrivimi una mail ↗
+        </a>
+        <a class="button button-primary"
+           href="https://wa.me/393408097531?text=Sarei%20interessat%20a%20realizzare%20un" target="_blank">
+          Scrivimi su Whatsapp ↗
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+<!-- BACK TO TOP BUTTON -->
+<a href="#home" class="back-to-top" aria-label="Torna all'inizio della pagina">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="22"
+    height="22"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+  >
+    <path d="m18 15-6-6-6 6"/>
+  </svg>
+</a>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <a href="#home" class="footer-logo">
+     Alice Rosso
+      </a>
+
+      <p>© 2026 · Tutti i diritti riservati.</p>
+
+    </div>
+  </footer>
+
+
+</body>
+</html>
