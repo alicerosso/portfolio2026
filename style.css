@@ -306,6 +306,7 @@ summary:focus-visible {
 .button {
   min-height: 50px;
   padding: 13px 21px;
+  margin-top: 10px;
 
   display: inline-flex;
   align-items: center;
